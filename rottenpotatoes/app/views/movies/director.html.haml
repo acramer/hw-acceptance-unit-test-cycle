@@ -1,0 +1,5 @@
+%h3 Movies from #{@directors}
+
+%ul
+    - @movies.each do |movie|
+        %li= movie.title
